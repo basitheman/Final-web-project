@@ -122,5 +122,15 @@ function getWeatherEmoji(id) {
     if (id > 800) return "☁️";
     return "❓";
 }
+function showError(message) {
+    card.textContent = "";
+    card.style.display = "block";
+    
+    const errorDisplay = document.createElement("p");
+    errorDisplay.textContent = message;
+    errorDisplay.classList.add("errorDisplay");
+    
+    card.appendChild(errorDisplay);
+}
 
 
