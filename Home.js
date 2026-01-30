@@ -124,13 +124,3 @@ function getWeatherEmoji(id) {
 }
 
 
-function showError(message) {
-    card.textContent = "";
-    card.style.display = "block";
-    
-    const errorDisplay = document.createElement("p");
-    errorDisplay.textContent = message;
-    errorDisplay.classList.add("errorDisplay");
-    
-    card.appendChild(errorDisplay);
-}
