@@ -50,8 +50,8 @@ Google Fonts (Outfit) – Typography
 📂 Project Structure
 weather-app/ │ 
 ├── Home.html # Home page
-├── style.css # Main styling 
-├── index.js # Home page logic 
+├── Home.css # Main styling 
+├── Home.js # Home page logic 
 
 │ 
 ├── about.html # About page 
