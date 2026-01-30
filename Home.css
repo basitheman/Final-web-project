@@ -252,5 +252,12 @@ body.dark .weather-details {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
+footer { 
+    background: #000; 
+    color: white; 
+    text-align: center; 
+    padding: 1.5rem; 
+    
+}
 
 
