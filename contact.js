@@ -48,11 +48,11 @@ form.addEventListener("submit", (e) => {
         return;
     }
 
-    // Success State
-    formMessage.textContent = "✔ Message sent successfully!";
-    formMessage.style.color = "#28a745"; // Green
     
-    // Clear form
+    formMessage.textContent = "✔ Message sent successfully!";
+    formMessage.style.color = "#28a745"; 
+    
+    
     emailInput.value = "";
     messageInput.value = "";
 });
