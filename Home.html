@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="app-header">
+    <div class="logo">🌤 WeatherApp</div>
+    <nav>
+        <a href="Home.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <button id="themeToggle" class="theme-btn">🌙</button>
+</header>
+
+<main>
+     <section class="search-section">
+        <h1>Check Your Local Weather</h1>
+        <p>Get real-time updates on temperature, humidity, and wind speed.</p>
+    <form class="weatherForm">
+        <input type="text" class="cityInput" placeholder="Search..." autocomplete="off">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    </section>
+
+    <div class="card-container">
+        <div class="card">
+            </div>
+    </div>
+    <section class="info-grid">
+        <div class="info-box">
+            <i class="fa-solid fa-umbrella"></i>
+            <h3>Stay Prepared</h3>
+            <p>Always know if you need an umbrella or sunglasses before you head out.</p>
+        </div>
+        <div class="info-box">
+            <i class="fa-solid fa-wind"></i>
+            <h3>Wind Tracking</h3>
+            <p>Our app provides precise wind speeds for sailors, hikers, and travelers.</p>
+        </div>
+</main>
+
+<footer>
+    © <span id="year"></span> Weather App
+</footer>
+
+<script src="Home.js"></script>
+</body>
+</html>

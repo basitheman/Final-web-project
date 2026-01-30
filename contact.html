@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Weather App</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="app-header">
+    <div class="logo">🌤 WeatherApp</div>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <button id="themeToggle" class="theme-btn">🌙</button>
+</header>
+
+<main>
+    <div class="contact-container">
+        
+        <div class="contact-info">
+            <h1>Get in Touch</h1>
+            <p class="sub-text">Have a question or a suggestion? We'd love to hear from you. Fill out the form or reach us directly.</p>
+            
+            <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>123 Cloud Street, Sky City</span>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>support@weatherapp.com</span>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <form id="contactForm" class="glass-form">
+            <h2>Send Message</h2>
+            
+            <div class="input-group">
+                <input type="email" id="email" required placeholder=" " autocomplete="off">
+                <label for="email">Email Address</label>
+                <span class="highlight"></span>
+            </div>
+
+            <div class="input-group">
+                <textarea id="message" required placeholder=" "></textarea>
+                <label for="message">Your Message</label>
+                <span class="highlight"></span>
+            </div>
+
+            <button type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            
+            <p id="formMessage"></p>
+        </form>
+
+    </div>
+</main>
+
+<footer>
+    © <span id="year"></span> Weather App
+</footer>
+
+<script src="contact.js"></script>
+</body>
+</html>

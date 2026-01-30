@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Weather App</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="app-header">
+    <div class="logo">🌤 WeatherApp</div>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <button id="themeToggle" class="theme-btn">🌙</button>
+</header>
+
+<main>
+    <div class="about-container">
+        <section class="glass-card intro">
+            <h1>About The Project</h1>
+            <p>
+                Welcome to WeatherApp! This project was designed to provide accurate, real-time weather data in a clean and beautiful interface. 
+                Whether you are planning your week or just checking the temperature, we've got you covered.
+            </p>
+        </section>
+
+        <section class="features-grid">
+            <div class="glass-card feature-item">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Real-Time Data</h3>
+                <p>Powered by the OpenWeather API to give you the latest updates instantly.</p>
+            </div>
+
+            <div class="glass-card feature-item">
+                <i class="fa-solid fa-moon"></i>
+                <h3>Dark Mode</h3>
+                <p>Seamlessly switch between light and dark themes for better visibility.</p>
+            </div>
+
+            <div class="glass-card feature-item">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Responsive</h3>
+                <p>Optimized for all devices, from large desktops to mobile phones.</p>
+            </div>
+        </section>
+
+        <section class="glass-card tech-stack">
+            <h3>Under the Hood</h3>
+            <p>Built with love using standard web technologies:</p>
+            <div class="tech-icons">
+                <span><i class="fa-brands fa-html5"></i> HTML5</span>
+                <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    © <span id="year"></span> Weather App
+</footer>
+
+<script src="about.js"></script>
+</body>
+</html>
