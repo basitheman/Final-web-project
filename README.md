@@ -4,7 +4,7 @@ The application includes Home, About, and Contact pages, supports dark/light mod
 
 📌 Features
 🏠 Home Page
-Search weather by city name
+Search weather by a place name
 Displays: 
 Temperature (°C)
 Weather condition
@@ -66,8 +66,8 @@ weather-app/ │
 ⚙️ How to Run the Project
 Download or clone the project
 Open the project folder
-Open index.html in any modern web browser
-Enter a city name and click Search
+Open Home.html in any modern web browser
+Enter a place name and click Search
 ⚠️ Internet connection is required to fetch weather data.
 
 🔑 API Configuration
